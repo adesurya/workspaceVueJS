@@ -3,11 +3,22 @@ const app = Vue.createApp({
 data (){
     return{
         showBooks: true,
-        title:"Semen Padang FC",
-        author:"Ade Surya Iskandar",
-        age:23,
-        x:0,
-        y:0
+        url: 'http://adesurya.com',
+        // title:"Semen Padang FC",
+        // author:"Ade Surya Iskandar",
+        // age:23,
+        // x:0,
+        // y:0
+        books:[
+        {
+            title:"Alkarim FC",
+            author: "Alkarim Group"
+        },
+        {
+            title:"Rendra FC",
+            author: "Rendra Group"
+        }
+    ]
     }
     },
     methods:{
